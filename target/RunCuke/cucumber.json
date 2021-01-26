@@ -1,0 +1,354 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14022519400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should login with valid credentials",
+        "description": "",
+        "id": "login-functionality;verify-user-should-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1050169500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 356339800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "LoginTest.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 317165500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter username \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 205784100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12473884100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Login button",
+            "match": {
+              "location": "LoginTest.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180021000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should login successfully on Orange Hrm website",
+            "match": {
+              "location": "LoginTest.iShouldLoginSuccessfullyOnOrangeHrmWebsite()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10726862100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify user should not login with invalid credentials",
+        "description": "",
+        "id": "login-functionality;verify-user-should-not-login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 894442600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 60900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on home page",
+            "match": {
+              "location": "LoginTest.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 252400200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter username \"Peter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Peter",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterUsername(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183097700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter password \"dh123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dh123",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 885873700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on Login Btn",
+            "match": {
+              "location": "LoginTest.clickOnLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109148000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see error message \"Invalid credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid credentials",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginTest.iShouldSeeErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10441151300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify user should not login with invalid credentials",
+        "description": "",
+        "id": "login-functionality;verify-user-should-not-login-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 832028600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 64600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on home page",
+            "match": {
+              "location": "LoginTest.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 475125600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter username \"runner\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "runner",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterUsername(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183193300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter password \"slow123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "slow123",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 767080800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on Login Btn",
+            "match": {
+              "location": "LoginTest.clickOnLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92831200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see error message \"Invalid credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid credentials",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginTest.iShouldSeeErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "As a User\r\nI want to visit Orange Hrm website",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/orangehrm/resources/featurefile/login.feature"
+  }
+]

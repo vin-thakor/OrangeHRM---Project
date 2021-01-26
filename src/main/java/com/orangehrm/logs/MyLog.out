@@ -1,0 +1,15 @@
+2021-01-26 22:01:195 INFO  BrowserSelector :21 - Launching Chrome Browser
+2021-01-26 22:01:919 INFO  LoginPage :34 - Enter user name AdminUsername field [[ChromeDriver: chrome on WINDOWS (0a501e0ed10db02b2ce372defa46fa63)] -> id: txtUsername]
+2021-01-26 22:01:128 INFO  LoginPage :41 - Enter password admin123Password field [[ChromeDriver: chrome on WINDOWS (0a501e0ed10db02b2ce372defa46fa63)] -> id: txtPassword]
+2021-01-26 22:01:605 INFO  LoginPage :48 - Clicking on login button Proxy element for: DefaultElementLocator 'By.id: btnLogin'
+2021-01-26 22:01:700 INFO  LoginPage :53 - Getting welcome admin text [[ChromeDriver: chrome on WINDOWS (0a501e0ed10db02b2ce372defa46fa63)] -> id: welcome]
+2021-01-26 22:01:886 INFO  BrowserSelector :21 - Launching Chrome Browser
+2021-01-26 22:01:869 INFO  LoginPage :34 - Enter user name PeterUsername field [[ChromeDriver: chrome on WINDOWS (a57e3b975c51e0341f5fe852a36dd743)] -> id: txtUsername]
+2021-01-26 22:01:54 INFO  LoginPage :41 - Enter password dh123Password field [[ChromeDriver: chrome on WINDOWS (a57e3b975c51e0341f5fe852a36dd743)] -> id: txtPassword]
+2021-01-26 22:01:945 INFO  LoginPage :48 - Clicking on login button [[ChromeDriver: chrome on WINDOWS (a57e3b975c51e0341f5fe852a36dd743)] -> id: btnLogin]
+2021-01-26 22:01:03 INFO  LoginPage :59 - Getting Error Text [[ChromeDriver: chrome on WINDOWS (a57e3b975c51e0341f5fe852a36dd743)] -> id: spanMessage]
+2021-01-26 22:01:964 INFO  BrowserSelector :21 - Launching Chrome Browser
+2021-01-26 22:01:889 INFO  LoginPage :34 - Enter user name runnerUsername field [[ChromeDriver: chrome on WINDOWS (dc879a07792f99fa41eea5fbe66db3fc)] -> id: txtUsername]
+2021-01-26 22:01:74 INFO  LoginPage :41 - Enter password slow123Password field [[ChromeDriver: chrome on WINDOWS (dc879a07792f99fa41eea5fbe66db3fc)] -> id: txtPassword]
+2021-01-26 22:01:843 INFO  LoginPage :48 - Clicking on login button [[ChromeDriver: chrome on WINDOWS (dc879a07792f99fa41eea5fbe66db3fc)] -> id: btnLogin]
+2021-01-26 22:01:897 INFO  LoginPage :59 - Getting Error Text [[ChromeDriver: chrome on WINDOWS (dc879a07792f99fa41eea5fbe66db3fc)] -> id: spanMessage]
